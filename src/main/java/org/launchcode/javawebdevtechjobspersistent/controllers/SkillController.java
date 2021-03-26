@@ -28,7 +28,7 @@ public class SkillController {
     @GetMapping("add")
     public String displayAddSkillsForm(Model model) {
         model.addAttribute(new Skill());
-        return "skills/index";
+        return "skills/add";
     }
 
     @PostMapping("add")
